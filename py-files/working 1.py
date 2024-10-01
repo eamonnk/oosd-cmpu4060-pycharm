@@ -1,3 +1,5 @@
+"Hello {0}, it must be {1} years since we last met!".format("Bob", 7)
+
 print("J".lower =="j".lower)
 
 # name1 = "Jane"
@@ -24,6 +26,7 @@ name[-4]
 name[-5:-3]
 name[-3:]
 name[:-4]
+
 
 
 # Immutability
