@@ -17,4 +17,6 @@ friendPrefArr=input("Please enter the item ids in order of your preference for t
 print(myPrefArr, friendPrefArr)
 
 # lambda function as done by jelena for ex 3
-myprefitems = list(map(lambda pref: itemarr[int(pref) - 1, myPrefArr]))
+myPrefItems = list(map(lambda pref: itemArr[int(pref) - 1], myPrefArr))
+print("The items ordered by your preference : " + ' '.join(myPrefItems))
+print(map(lambda pref: itemArr[int(pref) - 1], myPrefArr))
