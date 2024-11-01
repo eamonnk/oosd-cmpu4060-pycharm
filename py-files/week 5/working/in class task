@@ -1,0 +1,9 @@
+ member variable called teamMemberType to person with values 'lead', 'dev, 'ops'
+
+Add one person to the data
+
+Make 1 person lead, 1 person ops and 2 people dev
+
+Add a parameter to print tmt( team member type), with default value ' '
+
+If value of tmt is 'lead, 'dev', or 'ops' then filter byu this value, otherwise print all members

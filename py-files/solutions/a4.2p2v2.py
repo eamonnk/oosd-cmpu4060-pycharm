@@ -13,10 +13,6 @@ price = 0
 
 def print_grocery_item(index, ids=True, stock=True, quantity=False):
     item = groceries[index]
-    print("test1")
-    print(item)
-    print(type(item))
-    print("test2")
     text = ""
     if ids:
         text += "{0}: ".format(index + 1) if groceries[index][3] > 0 else "   "
@@ -49,6 +45,8 @@ def prompt_choice():
 
 def prompt_quantity(index):
     return input("\nPlease specify the quantity ({0} available): ".format(groceries[index][3]))
+
+print
                  
 print_empty_order = lambda: print("\nYour order is empty, cancelling.")
 print_zero_quantity = lambda: print("\nThe quantity specified is zero. Your basket is unchanged.")
