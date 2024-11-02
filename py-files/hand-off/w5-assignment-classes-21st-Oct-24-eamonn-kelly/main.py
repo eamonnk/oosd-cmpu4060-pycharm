@@ -21,9 +21,9 @@ DATA = [
 ##--- and progress down through each section---###
 
 #----Test product functionality---
-# p1=Product("Rice", "tasty in 100g", 9,)
+p1=Product("Rice", "tasty in 100g", 9,)
 # p2=Product("sweets", "very sweet in 50g", 8,)
-# p1.print()
+p1.print()
 # p2.print()
 
 #----Test shop functionality----
