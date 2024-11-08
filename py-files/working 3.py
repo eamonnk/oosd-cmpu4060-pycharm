@@ -1,8 +1,9 @@
-# ord() must be called on a string of length 1
-ord("a")
-# ord("abc")    # cases an error
+import datetime
 
-chr(45)
-chr(ord("a"))
+mydate = datetime.datetime.now()
 
-ord('ć')
+print("__str__() string: ", mydate.__str__())
+print("str() string: ", str(mydate))
+
+print("__repr__() string: ", mydate.__repr__())
+print("repr() string: ", repr(mydate))
