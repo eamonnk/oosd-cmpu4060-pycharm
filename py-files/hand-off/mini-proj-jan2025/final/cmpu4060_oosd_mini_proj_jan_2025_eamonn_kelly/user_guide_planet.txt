@@ -1,0 +1,49 @@
+**************************
+*			 *
+*    Planet Travel Time  *
+*       User Guide	 *
+*			 *
+**************************
+
+The following is a User Guide file for Planet Travel Time application. 
+
+To use the Planet Ttravel Time application do the following:
+
+STEP 1:
+In the 'Planet Travel Time' pane:
+1) Select a planet radio button from the left hand side
+2) Select mode of travel radio button from the right hand side
+3) Click the 'Calculate' button
+4) The travel time will then be displayed in the bottom section.
+5) You can continue to select planets and modes of travel as many times as you wish. 
+6) Clicking 'Calculate' after each selection will re-calculate the travel time for each selection.
+7) When you are finished click the 'Close' button to close the application.
+
+NOTE: To close this User Guide, click the 'X' in the top right hand corner.
+
+--Info:--
+<Travel Times>: Are based off average values for each mode of transport in Km/hr, as listed below.
+walk 		5
+run 		12
+cycle 		24
+drive 		80
+airplane 	800
+rocket		28000
+speed of light	1079252848
+
+<Planet distances>: Are based off closest planets have been to earth in the last 20 years.
+Various sources were used, such as https://theplanets.org/distances-between-planets/ 
+and https://nssdc.gsfc.nasa.gov/planetary/factsheet/.. Values used are Kms and are listed below.
+
+sun	147100000
+mercury	77300000
+venus	38200000
+mars	55700000
+jupiter	629000000
+saturn	1270000000
+uranus	2720000000
+neptune	4350000000
+pluto	4280000000
+
+
+

@@ -1,0 +1,21 @@
+**********************************
+*	Mini Project		*
+*   3 Utilities Application 	*
+*     	   Help			*
+*				*
+*********************************
+
+The following is the Help file for Mini Project - 3 Utilities application. 
+
+To use the Mini Project - 3 Utilities applicationn you can do the following:
+
+In the 'Mini Project - 3 Utilities - Jan 2025 window', choose one of the 3 utilities listed by clicking on the relevant button
+a) 'Match Analysis'
+b) 'Planet Travel Time'
+c) 'Gravity'
+
+There are User Guides available for each utility which are accessible from within the utilities themselves.
+
+You can close the utilties by clicking on the 'Close' butttons within each utility. Utilities can be run together at the same time or individually.
+
+NOTE: To close this Help guide, click the 'X' in the top right hand corner.
