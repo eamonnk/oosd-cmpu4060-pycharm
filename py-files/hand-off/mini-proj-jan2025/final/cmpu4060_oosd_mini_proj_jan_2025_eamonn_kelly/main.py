@@ -9,16 +9,17 @@ import os # used for file and path work
 
 # create functions that we will call as commands on button clicks in our main app window
 # create an instance of the class then call the start app function on that instance
+# we will pass master as the root in each utility instance to avoid multiple apps running in root
 def ma_utility_button_click():
     ma_utility=MatchAnalysis(master=root)
     ma_utility.start_match_analysis_app()
 
 def ptt_utility_button_click():
-    ptt_utility=PlanetTravelTime()
+    ptt_utility=PlanetTravelTime(master=root)
     ptt_utility.start_planet_travel_time_app()
     
 def g_utility_button_click():
-    g_utility=Gravity()
+    g_utility=Gravity(master=root)
     g_utility.start_gravity_app()
 
 def help_button_click():
@@ -98,11 +99,5 @@ app_frame.rowconfigure(5, weight=3)
 app_frame.rowconfigure(6, weight=3)
 
 
-
-# def close_button_click(self):
-#     # this stops the event loop
-#     self.root.quit()
-#     # this destroys the root window gui
-#     self.root.destroy()
 
 root.mainloop()

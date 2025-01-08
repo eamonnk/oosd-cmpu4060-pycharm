@@ -223,12 +223,11 @@ class MatchAnalysis:
             self.frame1_sports.rowconfigure(11, weight=3)
             self.frame1_sports.rowconfigure(12, weight=3)
             self.frame1_sports.rowconfigure(13, weight=3)
-            self.frame1_sports.rowconfigure(14, weight=3)   
-            self.frame1_sports.rowconfigure(15, weight=3)   
-            self.frame1_sports.rowconfigure(16, weight=3)   
-            self.frame1_sports.rowconfigure(17, weight=3)   
-            self.frame1_sports.rowconfigure(18, weight=3)    
-        
+            self.frame1_sports.rowconfigure(14, weight=3)
+            self.frame1_sports.rowconfigure(15, weight=3)
+            self.frame1_sports.rowconfigure(16, weight=3)
+            self.frame1_sports.rowconfigure(17, weight=3)
+            self.frame1_sports.rowconfigure(18, weight=3)
         
             self.realtime_intvar_values()
 
@@ -364,6 +363,8 @@ class MatchAnalysis:
         self.frame1a_sports_finished.rowconfigure(7, weight=3)
         self.frame1a_sports_finished.rowconfigure(8, weight=3)
         self.frame1a_sports_finished.rowconfigure(9, weight=3)
+        self.frame1a_sports_finished.rowconfigure(10, weight=3)
+        self.frame1a_sports_finished.rowconfigure(11, weight=3)
 
     
     # when click finish button we need to write all the data to the earlier created csv file
